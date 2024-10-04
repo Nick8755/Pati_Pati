@@ -1,0 +1,118 @@
+<html><head><base href="https://stavebni-zamecnictvi.cz/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stavební Zámečnictví - Kvalitní služby pro vaše projekty</title>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4ff;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  nav {
+    background-color: #444;
+    color: #fff;
+    padding: 0.5rem;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+  }
+  .service-icon {
+    width: 50px;
+    height: 50px;
+    fill: #333;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Stavební Zámečnictví</h1>
+    <p>Kvalitní služby pro vaše projekty</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="/">Domů</a></li>
+      <li><a href="/sluzby">Služby</a></li>
+      <li><a href="/o-nas">O nás</a></li>
+      <li><a href="/kontakt">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h2>Vítejte v našem stavebním zámečnictví</h2>
+    <p>Jsme specialisté na kovové konstrukce a zámečnické práce pro stavební projekty. Nabízíme širokou škálu služeb od výroby a montáže ocelových konstrukcí po instalaci bezpečnostních prvků.</p>
+
+    <h3>Naše služby</h3>
+    <ul>
+      <li>
+        <svg class="service-icon" viewBox="0 0 24 24">
+          <path d="M3 17h18v2H3v-2zm0-7h18v5H3v-5zm0-4h18v2H3V6z"/>
+        </svg>
+        Výroba a montáž ocelových konstrukcí
+      </li>
+      <li>
+        <svg class="service-icon" viewBox="0 0 24 24">
+          <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+        </svg>
+        Bezpečnostní prvky a mříže
+      </li>
+      <li>
+        <svg class="service-icon" viewBox="0 0 24 24">
+          <path d="M12 5.69l5 4.5V18h-2v-6H9v6H7v-7.81l5-4.5M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z"/>
+        </svg>
+        Zábradlí a schodiště
+      </li>
+    </ul>
+
+    <h3>Proč si vybrat nás?</h3>
+    <ul>
+      <li>Více než 15 let zkušeností v oboru</li>
+      <li>Kvalitní materiály a precizní zpracování</li>
+      <li>Individuální přístup ke každému projektu</li>
+      <li>Konkurenceschopné ceny</li>
+    </ul>
+
+    <h3>Kontaktujte nás</h3>
+    <p>Pro nezávaznou konzultaci nebo cenovou nabídku nás neváhejte kontaktovat:</p>
+    <p>Tel: +420 123 456 789</p>
+    <p>E-mail: info@stavebni-zamecnictvi.cz</p>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const header = document.querySelector('header');
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 50) {
+          header.style.backgroundColor = '#222';
+        } else {
+          header.style.backgroundColor = '#333';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
